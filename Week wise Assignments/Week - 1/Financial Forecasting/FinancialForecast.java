@@ -1,3 +1,13 @@
+/*
+ * Recursion is a method where a function calls itself to break down a problem into smaller subproblems.
+   It simplifies problems like calculating factorial, Fibonacci, or future value over years.
+   Predict future financial value using:
+     futureValue = currentValue * (1 + rate)^years
+
+   Time Complexity: O(n), where n = number of years
+
+   To optimize recursive solutions and avoid excessive computation, use Memoization, convert to Iterative (loop-based) for better memory usage
+ */
 public class FinancialForecast {
 
     // Recursive Method
